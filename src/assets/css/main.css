@@ -10084,3 +10084,88 @@ footer
 .contact-gallery img:hover{
     transform:translateY(-4px);
 }
+.hero-area{
+    position: relative;
+}
+
+.hero-area::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.45);
+    z-index:1;
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+}
+.hero-content h1,
+.hero-content p{
+    color:#fff;
+}
+
+.hero-content p{
+    opacity:.95;
+}
+
+.cinkes_shape_bg{
+    position:relative;
+    overflow:hidden;
+}
+
+.cinkes_shape_bg::after{
+    content:"";
+    position:absolute;
+    inset:0;
+
+    background:
+    radial-gradient(circle at 18% 45%,
+        rgba(255,255,255,.96) 0%,
+        rgba(255,255,255,.90) 25%,
+        rgba(255,255,255,.60) 45%,
+        rgba(255,255,255,0) 70%);
+}
+.cinkes_slider_content{
+    background:rgba(255,255,255,.75);
+    backdrop-filter:blur(8px);
+    -webkit-backdrop-filter:blur(8px);
+
+    display:inline-block;
+    padding:50px;
+    border-radius:20px;
+}
+/* iPhone / Mobile */
+@media (max-width:767px){
+
+    .cinkes_slider_section{
+        height:520px !important;
+        padding:40px 20px;
+    }
+
+    .cinkes_slider_content{
+        width:100%;
+        max-width:340px;
+        margin:auto;
+        padding:30px 22px;
+        border-radius:25px;
+    }
+
+    .cinkes_slider_content h3{
+        font-size:34px !important;
+        line-height:1.15;
+        word-break:break-word;
+    }
+
+    .cinkes_slider_content p{
+        font-size:20px !important;
+        line-height:1.5;
+    }
+
+    .cinkes_about_btn{
+        width:100%;
+        padding:0;
+        text-align:center;
+    }
+
+}
