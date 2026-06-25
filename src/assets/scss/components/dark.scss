@@ -1,0 +1,736 @@
+// Dark-Mode 
+$darkMainColor: #15202b;
+$darkPrimaryColor: #192734;
+$darkTextColor : #8899a6;
+$whiteText: #ffffff;
+$darkSecondaryColor: #f94d1c;
+.dark_mode nav.right_menu_togle {
+  background: $darkMainColor;
+}
+.dark_mode .contact-list.mobile_contact > span, .contact-list.mobile_contact a {
+  color: $darkTextColor;
+}
+
+.dark_mode .mean-container .mean-nav ul li a {
+  border-color: $darkTextColor;
+  font-size: 15px;
+  color: $darkTextColor;
+}
+.dark_mode .cinkes_testimonial_customer_name .cinkes_customer_review {
+  color: $darkTextColor;
+}
+.dark_mode .cinkes_blog_meta {
+  color: $whiteText;
+}
+.dark_mode .cinkes_footer_info p {
+  color: $darkTextColor;
+}
+.dark_mode .footer_widget_list ul li a {
+  color: $darkTextColor;
+}
+.dark_mode .cinkes_black {
+    background-color: $darkMainColor;
+  }
+  .dark_mode .cinkes_footer_contact_single > a {
+    color: $darkTextColor;
+  }
+  .dark_mode .cinkes_footer_copyright_area p {
+    color: $darkTextColor;
+  }
+  .dark_mode .cinkes_copyright_menu ul li a {
+    color: $darkTextColor;
+  }
+.dark_mode .header-sticky {
+    background-color: $darkPrimaryColor;
+  }
+.dark_mode .cinkes_main_menu li a {
+    color: $whiteText;
+  }
+  .dark_mode .cinkes_copyright_menu ul li:not(:first-child)::before {
+    background-color: $darkTextColor;
+  }
+  .dark_mode .cinkes_list_benefits.mt-30 ul {
+    color: $darkTextColor
+  }
+  .dark_mode .cinkes_progress_single .progress-bar span {
+    background-color: $darkPrimaryColor;
+  }
+  .dark_mode .cinkes_progress_single .progress-bar span::before {
+    border-color: $darkPrimaryColor transparent transparent $darkPrimaryColor;
+  }
+  .dark_mode .cinkes_blog2_meta a {
+    color: $darkTextColor;
+  }
+  .dark_mode .cinkes_blog_content_author_social a {
+    color: $darkTextColor;
+  }
+  .dark_mode .cinkes_help_feature_single_icon i {
+    color: $whiteText;
+  }
+  .dark_mode .cinkes_blog2_meta {
+    display: $darkTextColor;
+  }
+  .dark_mode .cinkes_blog2_meta i {
+    color: $darkTextColor;
+  }
+ .dark_mode .cinkes_blog2_single_meta {
+    color: $darkTextColor;
+  }
+  .dark_mode .active .cinkes_pricing_plan_action_btn {
+    background-color: #f94d1c;
+    color: $whiteText;
+  }
+  .dark_mode .cinkes_pricing_plan_action_btn:hover {
+    color: #fff;
+    background-color: #f94d1c;
+  }
+  .dark_mode .team_person_info a, .team_person_info span {
+    color: $darkTextColor;
+  }
+.dark_mode .cinkes_project_details_list ul li {
+  list-style: none;
+  color: $darkTextColor;
+}
+.dark_mode .blog_date.meta_item.mb-15 {
+  color: $darkTextColor;
+}
+.dark_mode .meta_item {
+  color: $darkTextColor;
+}
+.dark_mode .cinkes_contact_single_text p, .cinkes_contact_single_text a {
+  color: $darkTextColor;
+}
+.dark_mode .sd_tab_text_right ul li {
+  color: $darkTextColor;
+}
+.dark_mode .cinkes_project_media_description_details ul li a {
+  color: $darkTextColor;
+}
+.dark_mode .cinkes_project_media_description_details ul li:not(:last-child) {
+  color: $darkTextColor;
+}
+.dark_mode .cinkes_main_menu li.has-menu-children::before {
+    color: $whiteText;
+  }
+  .dark_mode .header-transparent.sticky .cinkes_menu > ul > li > a {
+    color: $whiteText;
+  }
+  .dark_mode .header-transparent.sticky .cinkes_menu li.has-menu-children::before {
+    color: $whiteText;
+}
+
+.dark_mode .header-transparent.sticky .cinkes_border_right-2 {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.dark_mode .cinkes_quick_text span {
+    color: #545a62;
+  }
+  .dark_mode .header-transparent.sticky .cinkes_quick_text span {
+    color: $whiteText;
+  }
+  .dark_mode .header-transparent.sticky .cinkes_quick_text a {
+    color: $whiteText;
+  }
+.dark_mode .cinkes_quick_text a {
+    color: #ffffff ;
+  }
+.dark_mode .cinkes_quick_contact span {
+    color: $whiteText;
+}
+
+.dark_mode  .cinkes_main_menu li:hover ul.sub-menu {
+  background: $darkPrimaryColor;
+}
+.dark_mode .cinkes_border_right {
+    border-right: 1px solid #545a62;
+}
+.dark_mode  .cinkes_services_fullwidth_area {
+    background-color: $darkMainColor;
+}
+.dark_mode .services_area {
+    background-color: $darkMainColor;
+}
+.dark_mode .cinkes_services_fullwidth_single {
+  border: 1px solid #545a62;
+  border-top: 0;
+}
+  .dark_mode .header-sticky.sticky {
+    background-color: $darkPrimaryColor
+  }
+  .dark_mode .cinkes_services_fullwidth_title {
+    color: $whiteText;
+  }
+  .dark_mode .cinkes_title {
+    color: $whiteText;
+  }
+  .dark_mode .cinkes_services_single {
+    border-width: 0px;
+    border-color: $darkMainColor;
+    background-color: $darkMainColor;
+  }
+  .dark_mode .cinkes_services_single_title a {
+    color: $whiteText;
+  }
+  .dark_mode .cinkes_services_single_icon {
+    background-color: $whiteText;
+  }
+  .dark_mode .cinkes_sidebar_download a:hover {
+    color: $darkSecondaryColor;
+  }
+  .dark_mode .cinkes_faq_single_item {
+    border-bottom: 1px solid #293b48;
+  }
+  .dark_mode .cinkes_project_media_description_details_share a:hover {
+    color: #fff;
+  }
+  .dark_mode .cinkes_contact_single_text a {
+   color: $darkTextColor;
+  }
+  .dark_mode p {
+    color: $darkTextColor;
+  }
+  .dark_mode .cinkes_about_area {
+    background-image: url("../../../img/darkbg/bg1.png") !important;
+    background-color: #081c2f; }
+
+    .dark_mode .cinkes_brand_bg_wrapper {
+      background-image: url("../../../img/darkbg/bg2.png") !important;
+      border-radius: 8px;
+    }
+    .dark_mode .cinkes_fullwidth_services_icon_box.mb-30 {
+      background-image: revert !important;
+    }
+   .dark_mode .cinkes_fullwidth_services_icon_box:hover {
+    background-image: url("../../../img/services/bglayer.png") !important;
+  }
+.dark_mode .cinkes_pricing_plan_area.pricing_bg {
+  background-image: url("../../../img/darkbg/bg3.png") !important;
+}
+
+.dark_mode .cinkes_counterup_testimon_area.gray_bg.pt-120.pb-120 {
+  background-image: url("../../../img/darkbg/bg6.png") !important;
+}
+    .dark_mode .cinkes_fullwidth_features_single:hover span.cinkes_fullwidth_number {
+      background-color: #fff;
+      transition: .5s;
+      color: $darkSecondaryColor;
+    }
+
+  .dark_mode .cinkes_about_title {
+    color: $whiteText;
+  }
+  .dark_mode .cinkes_brand_area.cinkes_brand1_area.mtm-185 {
+    background-color: $darkMainColor;
+  }
+  .dark_mode element {
+    background-image: none;
+  }
+  .dark_mode .cinkes_pricing_plan_header_title {
+    color: $whiteText;
+  }
+
+  .dark_mode  .pricing_tag {
+    background-color: $whiteText;
+    color: black;
+  }
+  .dark_mode .cinkes_pricing_plan_price {
+    color: $darkSecondaryColor;
+  }
+  .dark_mode .cinkes_pricing_plan_wrapper {
+    background-color: transparent;
+    border: 0px;
+    box-shadow: 0px 1px 4px 1px #ffffffb8;
+  }
+  .dark_mode .cinkes_count_text {
+    color: $whiteText;
+  }
+  .dark_mode .cinkes_pricing_plan_action_btn.dark {
+    color: $whiteText;
+  }
+  .dark_mode .cinkes_latest_blog_single {
+    background-color: transparent;
+  }
+  .dark_mode .cinkes_pricing_plan_action_btn.darkbtn {
+    color: #fff;
+  }
+
+  
+  .dark_mode .cinkes_pricing_plan_action_btn {
+    background-color: $whiteText;
+    color: $darkMainColor;
+  }
+  .dark_mode .cinkes_counterup_wrapper.mt-80 {
+    background-image: url("../../../img/darkbg/bg4.png") !important;
+  }
+  .dark_mode .cinkes_list1_wrapper ul li {
+    color: $darkTextColor;
+  }
+  .dark_mode .cinkes_brand_bg_wrapper {
+      background-color: #303d49;
+  }
+  .dark_mode .cinkes_working_process_area {
+      background-color: $darkMainColor;
+}
+.dark_mode .cinkes_working_process_step_icon i {
+    background-color: $darkPrimaryColor;
+    border: 0px;
+  }
+  .dark_mode .cinkes_working_process_step_title {
+   color: $whiteText;
+  }
+  .dark_mode .cinkes_project_area {
+      background-color: $darkMainColor;
+}
+.dark_mode .cinkes_projects_button li button {
+    border-bottom: 2px solid $darkTextColor;
+  }
+  .dark_mode .cinkes_consultation_form button[type="submit"]:hover {
+    background-color: #15202b;
+    color: #fff;
+  }
+  .dark_mode .cinkes_projects_pagination .swiper-pagination-bullet:is(.swiper-pagination-bullet-active) {
+    outline: 2px solid #1a1a1a;
+    border: 3px solid $darkTextColor;
+    width: 15px;
+    height: 15px;
+  }
+  .dark_mode .cinkes_consultation_form button[type="submit"] {
+    background-color: #fff;
+    color: $darkMainColor;
+  }
+  .dark_mode .cinkes_projects_pagination .swiper-pagination-bullet {
+    background-color: #373737;
+  }
+  .dark_mode .bg_gray {
+    background-color: $darkPrimaryColor;
+  }
+  .dark_mode .fal.fa-phone-plus {
+    color: $whiteText;
+  }
+  .dark_mode .cinkes_fullwidth_features_single {
+    background-color: $darkMainColor;
+    border: 0px;
+  }
+  .dark_mode .cinkes_fullwidth_single_title {
+    color: $whiteText;
+  }
+  .dark_mode .cinkes_fullwidth_number {
+    transition: .5s;
+  }
+.dark_mode .cinkes_fullwidth_services_wrapper {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_fullwidth_services_icon_box {
+  background-color: $darkPrimaryColor;
+  border: 0;
+}
+.dark_mode .cinkes_fullwidth_seervice_icon_text {
+  color: $whiteText;
+}
+.dark_mode .cinkes_team_memeber_area {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_pricing_plan_wrapper {
+  background-color: transparent;
+  border: 0px;
+}
+.dark_mode .cinkes_video_presentation_area {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_consultation_area {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_free_consultaion_wrapper {
+  background-color: $darkPrimaryColor;
+}
+
+.dark_mode .cinkes_testimonial_slider_area {
+  background-color: $darkPrimaryColor;
+}
+.dark_mode .cinkes_latest_blog_area {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_latest_blog_single_content {
+  background-color: $darkPrimaryColor;
+}
+.dark_mode .cinkes_latest_blog_single_content_title a {
+  color: $whiteText;
+}
+.dark_mode .cinkes_footer_top_area {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_footer_social a {
+  background-color: $darkPrimaryColor;
+}
+.dark_mode .cinkes_footer_widget_area {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_footer_border_bottom {
+  border-bottom: 1px solid #2f3c48;
+}
+.dark_mode .cinkes_footer_copyright_area {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_testimonial_spage_content::before {
+  background-color: #8899a6;
+}
+.dark_mode .cinkes_blog2_meta:not(:last-child)::before {
+  background-color: #8899a6;
+}
+.dark_mode .cinkes_service_item_2::before {
+  background-color: $whiteText;
+}
+// home page 2 
+
+.dark_mode .cinkes_brand_bg_wrapper-2 {
+  background-image: url("../../../img/darkbg/bg2.png") !important;
+border-radius: 8px;
+background-repeat: no-repeat;
+}
+.dark_mode .cinkes_brand_bg_wrapper-2 {
+  background-color: transparent;
+}
+.dark_mode .out-project-area.pt-115.pb-120 {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_brand_area.mtm-185 {
+  background-color: $darkMainColor;
+}
+
+// 404 page 
+.dark_mode .cinkes-404-area.pt-100.pb-120 {
+  background-color: $darkMainColor;
+}
+// about 2
+.dark_mode .dark-header-sticky {
+  background-color: transparent;
+}
+.dark_mode .cinkes_about_2_area.pb-120.pt-220 {
+  background: $darkMainColor;
+}
+.dark_mode .grey_bg2 {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_countup_number {
+  color: $whiteText;
+}
+.dark_mode .cinkes_countup_text {
+  color: $whiteText;
+}
+.dark_mode .cinkes_support_area.pt_115_xs.pb-90 {
+  background-image: url(../../../img/darkbg/bg4.png) !important;
+}
+.dark_mode .cinkes_support_item {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_support_item_text {
+  color: $whiteText;
+}
+.dark_mode .cinkes_support_icon::before {
+  background-color: $darkPrimaryColor;
+  }
+  .dark_mode .cinkes_service2_item {
+    background-color: $darkMainColor;
+  }
+  .dark_mode .cinkes_service2_item_title {
+    color: $whiteText;
+  }
+  .dark_mode .cinkes_service2_item_icon::before {
+    background-color: $darkPrimaryColor;
+}
+.dark_mode .cinkes_progress_single .progress-bar {
+  background-color: #f94d1c;
+}
+.dark_mode .bg_white {
+  background-color: #15202b;
+}
+.dark_mode .cinkes_benefits_area {
+  background-color: #15202b;
+}
+.dark_mode .progress_label.wow.fadeInLeft h5 {
+  color: $whiteText;
+}
+.dark_mode .cinkes_counterup_wrapper {
+  background-image: url("../../../img/darkbg/bg4.png") !important;
+}
+.dark_mode .cinkes_testimonial_spage_wrapper {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_testimonial_spage_author_name {
+  color: $whiteText;
+}
+
+// blog 
+.dark_mode .dark-header-sticky {
+  background-color: transparent;
+}
+.dark_mode .blog_single_quote_content {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_blog_details_area.pt-120.pb-70 {
+  background-color: $darkPrimaryColor;
+}
+.dark_mode .blog_single_item {
+  background: $darkMainColor;
+}
+.dark_mode .blog_user_name {
+    color: $whiteText;
+}
+.dark_mode .blog_title a {
+  color: $whiteText;
+}
+.dark_mode .quote_author {
+color: $whiteText;
+}
+.dark_mode .cinkes_blog_sidebar {
+  background-color: #192734;
+}
+.dark_mode .cinkes_sidebar_title {
+  color: $whiteText;
+}
+.dark_mode .cinkes_sidebar-latestnews-title a {
+ color: $whiteText;
+}
+
+// blog page 2
+
+.dark_mode .cinkes_blog_content_title {
+  color: $whiteText;
+}
+.dark_mode .cinkes_blog_content_author {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_blog_content_author_name {
+ color: $whiteText;
+}
+.dark_mode .comments_title {
+  color: $whiteText;
+}
+.dark_mode .comment_title a {
+  color: $whiteText;
+}
+// contact us 
+
+.dark_mode .cinkes_gmap_area.pt-120.pb-105 {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_contact_area.pb-80 {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_getintouch_title {
+ color: $whiteText;
+}
+.dark_mode .cinkes_contact_single_title {
+  color: $whiteText;
+}
+
+// faq page 
+.dark_mode .cinkes_faq_area.pt-115.pb-80 {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_faq_single_item_button {
+  color: $whiteText;
+}
+
+// portfolio details 
+.dark_mode .cinkes_project_details_area.pt-120.pb-110 {
+  background-color: $darkMainColor;
+}
+.dark_mode .portfolio_nav button:hover {
+  color: #fff;
+}
+.dark_mode .out-project-area.pb-115 {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_project_details_title {
+  color: $whiteText;
+}
+.dark_mode .cinkes_project_details_meta_wrapper {
+  background-color: $darkPrimaryColor;
+}
+.dark_mode .cinkes_project_details_meta_text a {
+  color: $whiteText;
+}
+.dark_mode .cinkes_project_details_prev, .dark_mode .cinkes_project_details_next {
+  color: $whiteText;
+}
+.dark_mode .cinkes-single-recent-project-box-1 .cinkes-single-recent-project-content-wrapper-1 {
+  background: $darkPrimaryColor;
+}
+.dark_mode .cinkes-single-recent-project-content-title-1 a {
+  color: $whiteText;
+}
+.dark_mode .cinkes_project_details_next {
+  color: $whiteText;
+}
+
+// portfolio filter 
+.dark_mode .portfolio_nav button.active {
+  color: #fff;
+  background-color: #f94d1c;
+}
+.dark_mode .portfolio_area.filter-wrapper.p-rel.pt-120.pb-120 {
+  background-color: $darkMainColor;
+}
+.dark_mode .portfolio_nav button {
+  background-color: $whiteText;
+  transition: all .3s;
+  color: $darkMainColor;
+}
+.dark_mode .cinkes_portfolio_media_area.fix.pt-120.pb-70 {
+  background-color: $darkMainColor;
+}
+.dark_mode .project_media_desc_details_title {
+  color: $whiteText;
+}
+.dark_mode .cinkes_project_media_description_details ul li strong {
+  color: $whiteText;
+}
+.dark_mode .cinkes_project_media_description_details_share a {
+  color: #151515;
+  background-color: #fff;
+}
+.dark_mode .cinkes_project_media_description_details_share_label {
+  color: $whiteText;
+}
+.dark_mode .project_media_desc_title {
+  color: $whiteText;
+}
+.dark_mode.cinkes_counterup_testimon_area {
+  background: #15202b;
+}
+// service 2 
+.dark_mode .cinkes_support_area.pt-115.pb-90 {
+  background-image: url("../../../img/darkbg/bg4.png") !important;
+}
+.dark_mode .cinkes_service_work {
+  background-color: $darkPrimaryColor;
+}
+.dark_mode .cinkes_service_work_title a {
+  color: $whiteText;
+}
+.dark_mode .cinkes_blog2_single_meta {
+  background-color: $darkPrimaryColor;
+}
+.dark_mode .cinkes_blog2_single_content {
+  background-color: $darkPrimaryColor;
+}
+.dark_mode .cinkes_blog2_single_content_title a {
+  color: $whiteText;
+}
+//service details
+
+.dark_mode .cinkes_service_details_area.pt-120.pb-70 {
+  background-color: $darkPrimaryColor;
+}
+.dark_mode .service_details_title {
+  color: $whiteText;
+}
+.dark_mode .sd_tab_title {
+  color: $whiteText;
+}
+.dark_mode .sd_tab_text_right ul li::before {
+  background-color: $whiteText;
+}
+.dark_mode .cinkes_details_sidebar .cinkes_blog_sidebar {
+  background-color: #283542;
+}
+// team details 
+.dark_mode .team_details_area.pt-120.pb-90 {
+  background-color: $darkMainColor;
+}
+.dark_mode .cinkes_team_details_designation {
+  color: $whiteText;
+}
+.dark_mode .team_person_info strong {
+  color: $whiteText;
+}
+.dark_mode .cinkes_team_member_social_action a {
+  background-color: $darkMainColor;
+  color: #fff;
+}
+.dark_mode .cinkes_team_member_social_action a:hover {
+  background-color: $darkSecondaryColor;
+  color: $whiteText;
+}
+.dark_mode .cinkes_team_member_single_info.cinkes_team_details_single_info {
+  background-color: $darkPrimaryColor;
+}
+.dark_mode .cinkes_team_member_name.cinkes_team_details_name {
+  color: $whiteText;
+}
+.dark_mode .cinkes_help_bg {
+  background-color: $darkPrimaryColor
+}
+.dark_mode .cinkes_help_title {
+  color: $whiteText;
+}
+.dark_mode .cinkes_help_feature_title {
+  color: $whiteText;
+}
+// testimonial 
+.dark_mode .cinkes_testimonial_spage_area.pt-115.pb-120 {
+  background-image: url("../../../img/darkbg/bg6.png") !important;
+}
+.cinkes-dark-light-view-box {
+  position: fixed;
+  left: 25px;
+  top: 50%;
+  transition: all .3s;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 70px;
+  border-radius: 18px;
+  z-index: 999;
+  background-color: #111;
+  &.has-clicked {
+    background: #f94d1c;
+  }
+  & .cinkes-dark-light-view-toogle-dot {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    transition: all .3s;
+    background: #fff;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    &.pos-bottom {
+      top: 34px;
+    }
+  }
+  cursor: pointer;
+  &::before {
+    position: absolute;
+    left: 50%;
+    top: 5px;
+    font-family: "Font awesome 5 pro";
+    content: "\f186";
+    color: #fff;
+    transform: translateX(-50%);
+  }
+  &::after {
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    font-family: "Font awesome 5 pro";
+    content: "\f185";
+    color: #fff;
+    transform: translateX(-50%);
+  }
+}
+.dark_mode .cinkes_slide:after {
+  background-color: #192734;
+}
+.dark_mode .cinkes_border_right {
+  border-left-color: #545a62;
+}
+.dark_mode .cinkes_services_fullwidth_single:first-child {
+  border-right: 1px solid #545a62;
+}
+
+.dark_mode  {
+  .cinkes_about_content_wrapper .cinkes_about_title {
+    color: #fff;
+  }
+}
