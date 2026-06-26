@@ -10169,3 +10169,21 @@ footer
     }
 
 }
+.cinkes_list_wrapper ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.cinkes_list_wrapper ul li{
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
+    margin-bottom:15px;
+}
+
+.cinkes_list_wrapper ul li i{
+    color:#c7a246;
+    min-width:18px;
+    margin-top:4px;
+}
